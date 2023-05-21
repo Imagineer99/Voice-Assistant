@@ -40,9 +40,10 @@ Let your voice be heard with VoiceAssistant! 🗣️🤖🎧
 
 
 # Software Licence 
-Software License Agreement
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+
+Software License Agreement
 This Software License Agreement (the "Agreement") is entered into between Imagineer (the "Licensor") and any individual or entity who accesses or uses the Voice Assistant software contained in this Git repository (the "Licensee").
 
 By accessing or using the Voice Assistant software, the Licensee agrees to be bound by the terms and conditions of this Agreement.
