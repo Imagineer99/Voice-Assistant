@@ -1,4 +1,5 @@
-# VoiceAssistant 🤖
+# VoiceAssistant 🤖 ![Version](https://img.shields.io/badge/Version-1.0-brightgreen.svg)
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 ![Version](https://img.shields.io/badge/Version-1.0-brightgreen.svg)
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
