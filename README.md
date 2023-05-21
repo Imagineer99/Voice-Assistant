@@ -1,5 +1,5 @@
 🎙️ VoiceAssistant 🤖
-License: MIT
+
 
 VoiceAssistant is a sophisticated and user-friendly voice assistant that seamlessly integrates the immense capabilities of OpenAI and Eleven Labs API keys. Harnessing the cutting-edge potential of speech recognition, natural language processing, and audio synthesis, this code empowers you to engage with the assistant effortlessly.
 
