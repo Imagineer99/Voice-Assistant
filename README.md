@@ -3,7 +3,8 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
 
-Easy-to-use voice assistant that combines the power of OpenAI API and Eleven Labs. This code allows you to interact with the assistant using speech input, leveraging advanced technologies such as speech recognition, natural language processing, and audio synthesis.
+Easy-to-use voice assistant that combines the power of OpenAI API and Eleven Labs. This code allows you to interact with the assistant using speech input, 
+leveraging advanced technologies such as speech recognition, natural language processing, and audio synthesis.
 
 # Features 🌟
 
@@ -32,10 +33,9 @@ pip install -r requirements.txt
 Make sure to install the necessary libraries and include your API keys for seamless integration.
 
 Disclaimer ❗                                                                                                                                                                                            
-Please note that this code is for demonstration purposes only and may require additional configurations and adjustments to suit your specific needs. Use it responsibly and ensure compliance with the terms and conditions of the respective API providers.
-
+Please note that this code is for demonstration purposes only and may require additional configurations and adjustments to suit your specific needs. 
+Use it responsibly and ensure compliance with the terms and conditions of the respective API providers.
 Feel free to contribute, enhance, and adapt this voice assistant to create amazing voice-enabled applications!
-
 Let your voice be heard with VoiceAssistant! 🗣️🤖🎧
 
 
