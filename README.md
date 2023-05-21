@@ -22,6 +22,8 @@ The generated text is produced by OpenAI's API based on the input text.
 The generated text is then synthesized into audio using Eleven Labs API.
 The synthesized audio is played back, allowing you to hear the voice assistant's responses.
 
+Disclaimer: Use of Eleven Labs Software
+
 # Requirements 🛠️
 To install the packages listed in requirements.txt, you can use the following command in your command line or terminal:
 
