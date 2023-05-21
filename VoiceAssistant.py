@@ -8,12 +8,12 @@ import soundfile as sf
 import speech_recognition as sr
 
 # Set up OpenAI API key
-openai.api_key = "API KEY"
+openai.api_key = "OPEN-AI-API"
 
 def generate_text(prompt):
     # Call OpenAI API to generate text based on the input prompt
     response = openai.Completion.create(
-        engine="text-davinci-003",
+        engine="",
         prompt=prompt,
         max_tokens=50,
         n=1,
@@ -45,6 +45,33 @@ def speech_to_text(audiofile):
         text = ""
     return text
 
+def generate_audio(text):
+    url = "https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM"
+    headers = {
+        "accept": "audio/mpeg",
+        "xi-api-key": "ELEVEN-LABS-API",
+        "Content-Type": "application/json"
+    }
+    params = {"optimize_streaming_latency": 0}
+
+    data = {
+        "text": text,
+        "model_id": "eleven_monolingual_v1",
+        "voice_settings": {
+            "stability": 0,
+            "similarity_boost": 0
+        }
+    }
+
+    response = requests.post(url, headers=headers, params=params, data=json.dumps(data))
+
+    if response.status_code == 200:
+        return response.content
+    else:
+        print(f"Error: {response.status_code}")
+        print(response.text)
+
+
 # Run the script constantly until you close it
 while True:
     # Record speech for 5 seconds
@@ -64,11 +91,7 @@ while True:
     print("Generated Text: ", generated_text)
 
     # Synthesize the generated text using Eleven Labs API
-    audio = generate(
-      text=generated_text,
-      voice="Bella",
-      model="eleven_monolingual_v1"
-    )
+    audio = generate_audio(generated_text)
 
     # Play the synthesized audio
     play(audio)
