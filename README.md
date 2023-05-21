@@ -27,7 +27,6 @@ Disclaimer: Use of Eleven Labs Software
 
 # Requirements 🛠️
 To install the packages listed in requirements.txt, you can use the following command in your command line or terminal:
-
 Copy code
 pip install -r requirements.txt
 Make sure to install the necessary libraries and include your API keys for seamless integration.
