@@ -1,4 +1,4 @@
-# 🎙️ VoiceAssistant 🤖🎤
+# 🎙️ VoiceAssistant 🤖
 
 VoiceAssistant is an easy-to-use voice assistant that combines the power of OpenAI and Eleven Labs API keys. This code allows you to interact with the assistant using speech input, leveraging advanced technologies such as speech recognition, natural language processing, and audio synthesis.
 
@@ -8,7 +8,7 @@ Text Generation: Utilize OpenAI's API to generate new text based on user input p
 Audio Synthesis: Employ Eleven Labs API to synthesize the generated text into audio with natural-sounding voices.
 Playback: Play the synthesized audio to listen to the voice assistant's responses.
 
-Usage 🚀
+Usage 🎤
 Set up your OpenAI and Eleven Labs API keys and ensure they are added to the code.
 Run the code to start the voice assistant.
 Speak into the microphone to record your speech.
