@@ -1,7 +1,4 @@
-VoiceAssistant 🤖
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
+# VoiceAssistant 🤖
 
 Easy-to-use voice assistant that combines the power of OpenAI and Eleven Labs API keys. This code allows you to interact with the assistant using speech input, leveraging advanced technologies such as speech recognition, natural language processing, and audio synthesis.
 
@@ -44,6 +41,7 @@ Let your voice be heard with VoiceAssistant! 🗣️🤖🎧
 
 # Software Licence 
 Software License Agreement
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This Software License Agreement (the "Agreement") is entered into between Imagineer (the "Licensor") and any individual or entity who accesses or uses the Voice Assistant software contained in this Git repository (the "Licensee").
 
