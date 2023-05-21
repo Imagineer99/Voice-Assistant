@@ -20,7 +20,7 @@ Android Compatibility: *coming soon*
 
 # Usage 🎤
 
-Set up your OpenAI and Eleven Labs API keys and ensure they are added to the code.
+Set up your OpenAI API key and ensure it is added to the code.
 Run the code to start the voice assistant.
 Speak into the microphone to record your speech.
 The speech will be converted into text using speech recognition technology.
