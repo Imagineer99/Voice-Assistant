@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
 
-Easy-to-use voice assistant that combines the power of OpenAI API and Eleven Labs. This code allows you to interact with the assistant using speech input,
+Easy-to-use voice assistant that combines the power of OpenAI and Eleven Labs API. This code allows you to interact with the assistant using speech input,
 leveraging advanced technologies such as speech recognition, natural language processing, and audio synthesis.
 
 # Features 🌟
