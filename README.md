@@ -28,9 +28,6 @@ soundfile library
 speech_recognition library
 Make sure to install the necessary libraries and include your API keys for seamless integration.
 
-License 📝
-This project is licensed under the MIT License.
-
 Disclaimer ❗
 Please note that this code is for demonstration purposes only and may require additional configurations and adjustments to suit your specific needs. Use it responsibly and ensure compliance with the terms and conditions of the respective API providers.
 
@@ -39,11 +36,11 @@ Feel free to contribute, enhance, and adapt this voice assistant to create amazi
 Let your voice be heard with VoiceAssistant! 🗣️🤖🎧
 
 
-# Software Licence 
+# Software License Agreement 📜
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 
-Software License Agreement
+
 This Software License Agreement (the "Agreement") is entered into between Imagineer (the "Licensor") and any individual or entity who accesses or uses the Voice Assistant software contained in this Git repository (the "Licensee").
 
 By accessing or using the Voice Assistant software, the Licensee agrees to be bound by the terms and conditions of this Agreement.
