@@ -45,28 +45,33 @@ def speech_to_text(audiofile):
         text = ""
     return text
 
-# Record speech for 5 seconds
-record_duration = 5
-sample_rate = 16000
-audio_data = record_speech(record_duration, sample_rate)
-audiofile = "speech_recording.wav"
-save_wav(audio_data, audiofile, sample_rate)
+# Run the script constantly until you close it
+while True:
+    # Record speech for 5 seconds
+    record_duration = 5
+    sample_rate = 16000
+    audio_data = record_speech(record_duration, sample_rate)
+    audiofile = "speech_recording.wav"
+    save_wav(audio_data, audiofile, sample_rate)
 
-# Convert recorded speech to text
-input_text = speech_to_text(audiofile)
-print("Input Text: ", input_text)
+    # Convert recorded speech to text
+    input_text = speech_to_text(audiofile)
+    print("Input Text: ", input_text)
 
-# Generate new text using OpenAI API
-generated_text = generate_text(input_text)
+    # Generate new text using OpenAI API
+    generated_text = generate_text(input_text)
 
-print("Generated Text: ", generated_text)
+    print("Generated Text: ", generated_text)
 
-# Synthesize the generated text using Eleven Labs API
-audio = generate(
-  text=generated_text,
-  voice="Bella",
-  model="eleven_monolingual_v1"
-)
+    # Synthesize the generated text using Eleven Labs API
+    audio = generate(
+      text=generated_text,
+      voice="Bella",
+      model="eleven_monolingual_v1"
+    )
 
-# Play the synthesized audio
-play(audio)
+    # Play the synthesized audio
+    play(audio)
+
+    # Add a delay of 1 second before recording speech again
+    time.sleep(1)
