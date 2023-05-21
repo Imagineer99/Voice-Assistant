@@ -31,7 +31,7 @@ Copy code
 pip install -r requirements.txt
 Make sure to install the necessary libraries and include your API keys for seamless integration.
 
-Disclaimer ❗
+Disclaimer ❗                                                                                                                                                                                            
 Please note that this code is for demonstration purposes only and may require additional configurations and adjustments to suit your specific needs. Use it responsibly and ensure compliance with the terms and conditions of the respective API providers.
 
 Feel free to contribute, enhance, and adapt this voice assistant to create amazing voice-enabled applications!
