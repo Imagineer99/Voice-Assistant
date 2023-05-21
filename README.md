@@ -1,4 +1,4 @@
-🎙️ VoiceAssistant 🤖🎤
+# 🎙️ VoiceAssistant 🤖🎤
 
 VoiceAssistant is an easy-to-use voice assistant that combines the power of OpenAI and Eleven Labs API keys. This code allows you to interact with the assistant using speech input, leveraging advanced technologies such as speech recognition, natural language processing, and audio synthesis.
 
@@ -17,7 +17,7 @@ The generated text is produced by OpenAI's API based on the input text.
 The generated text is then synthesized into audio using Eleven Labs API.
 The synthesized audio is played back, allowing you to hear the voice assistant's responses.
 
-Requirements 🛠️
+# Requirements 🛠️
 Python 3.x
 OpenAI API key
 Eleven Labs API key
@@ -37,7 +37,7 @@ Feel free to contribute, enhance, and adapt this voice assistant to create amazi
 Let your voice be heard with VoiceAssistant! 🗣️🤖🎧
 
 
-# SOftware Licence 
+# Software Licence 
 Software License Agreement
 
 This Software License Agreement (the "Agreement") is entered into between Imagineer (the "Licensor") and any individual or entity who accesses or uses the Voice Assistant software contained in this Git repository (the "Licensee").
