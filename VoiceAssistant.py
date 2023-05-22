@@ -1,28 +1,26 @@
 import openai
 import json
 import requests
-from elevenlabs import generate, play
 import time
+from elevenlabs import generate, play
 import sounddevice as sd
 import soundfile as sf
 import speech_recognition as sr
 
 # Set up OpenAI API key
-openai.api_key = "OPEN-AI-API"
+openai.api_key = "x"
 
 def generate_text(prompt):
-    # Call OpenAI API to generate text based on the input prompt
-    response = openai.Completion.create(
-        engine="",
-        prompt=prompt,
-        max_tokens=50,
-        n=1,
-        stop=None,
-        temperature=0.5,
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "You are a helpful voice assistant."},
+            {"role": "user", "content": prompt}
+        ]
     )
 
     # Extract the generated text from the response
-    generated_text = response.choices[0].text.strip()
+    generated_text = response.choices[0].message.content
     return generated_text
 
 def record_speech(duration, sample_rate=16000):
@@ -49,7 +47,7 @@ def generate_audio(text):
     url = "https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM"
     headers = {
         "accept": "audio/mpeg",
-        "xi-api-key": "ELEVEN-LABS-API",
+        "xi-api-key": "x",
         "Content-Type": "application/json"
     }
     params = {"optimize_streaming_latency": 0}
