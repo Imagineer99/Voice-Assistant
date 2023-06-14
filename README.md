@@ -1,4 +1,5 @@
 # Voice-Assistant 🤖
+[![Video Title](https://img.youtube.com/vi/LC4DXT3hA-U/0.jpg)](https://youtu.be/LC4DXT3hA-U)
 ![Version](https://img.shields.io/badge/Version-1.0-brightgreen.svg)
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
