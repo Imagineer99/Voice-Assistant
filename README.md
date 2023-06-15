@@ -5,8 +5,10 @@
 Easy-to-use voice assistant that combines the power of OpenAI and Eleven Labs API. This code allows you to interact with the assistant using speech input,
 leveraging advanced technologies such as speech recognition, natural language processing, and audio synthesis.
 
-Example Video by Mao:
+
 [![Video Title](https://img.youtube.com/vi/LC4DXT3hA-U/0.jpg)](https://youtu.be/LC4DXT3hA-U)
+
+
 
 
 
